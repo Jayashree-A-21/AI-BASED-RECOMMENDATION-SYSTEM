@@ -29,23 +29,24 @@ The following JAR files are required:
 
 ### Compile
 javac -cp .;mahout-core-0.9.jar;mahout-math-0.9.jar;slf4j-api-1.7.30.jar;slf4j-simple-1.7.30.jar;guava-18.0.jar;commons-math3-3.2.jar RecommendationSystem.java
-###Execute
+
+### Execute
 java -cp .;mahout-core-0.9.jar;mahout-math-0.9.jar;slf4j-api-1.7.30.jar;slf4j-simple-1.7.30.jar;guava-18.0.jar;commons-math3-3.2.jar RecommendationSystem
 
-###📌 Sample Output
+### 📌 Sample Output
 Recommended products for User 1:
 Product ID: 104 | Predicted Preference: 4.5
 
-###📊 Dataset Format (data.csv)
+### 📊 Dataset Format (data.csv)
 
 Each row represents a user rating a product:
 userID,itemID,preference
 1,101,4.0
 1,102,3.5
 2,101,5.0
-###⚠️ Note: The CSV file must not contain a header row.
+### ⚠️ Note: The CSV file must not contain a header row.
 
-###📚 Use Case
+### 📚 Use Case
 
 Product recommendation systems
 
